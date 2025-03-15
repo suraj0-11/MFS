@@ -5,17 +5,17 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7525160133:AAERBaTODFGERAEKw_pI07Li1qLBram1c78")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7521101361:AAE98W887P86B9IuEFc-XWyA5sDDk68p1jU")
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "17417255"))
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "73d424d9847f968130cd5b41946f7a5d")
 #Your db channel Id
-CHANNEL_ID = os.environ.get("CHANNEL_ID", "@BatchBotLog")
+CHANNEL_ID = os.environ.get("CHANNEL_ID", "@stagosauras")
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "DARKXSIDE78")
+OWNER = os.environ.get("OWNER", "krisp_chip")
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7086472788"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6953453057"))
 #Port
 PORT = os.environ.get("PORT", "8000")
 #Database
@@ -25,7 +25,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Diablo")
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNELS = [
     chan_id.strip() for chan_id in 
-    os.environ.get("FORCE_SUB_CHANNELS", "@GenAnimeOfc,@Pirate_Flick_Completed,@pirate_flick").split(",")
+    os.environ.get("FORCE_SUB_CHANNELS", "@asukashi").split(",")
     if chan_id.strip()
 ]
 
