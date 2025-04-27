@@ -44,7 +44,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://wallpapercave.com/wp/wp8857060.
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hey There!!! [{first}]\nContact <a href='t.me/Gorden_freemen'>Gorden_freemen</a></b>")
 try:
     ADMINS=[6504605648]
-    for x in (os.environ.get("ADMINS", "6302971969").split()):
+    for x in (os.environ.get("ADMINS", "6504605648").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -65,7 +65,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "<b>ɪ sʜᴀʟʟ ɢʀᴀɴᴛ ʏᴏᴜ ᴛʜᴇ ᴍᴇʀᴄʏ ᴏғ sɪʟᴇɴᴄᴇ. sᴘᴇᴀᴋ ɴᴏ ᴍᴏʀᴇ.</b>"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(7086472788)
+ADMINS.append(6504605648)
 
 LOG_FILE_NAME = "bot.txt"
 
