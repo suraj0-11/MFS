@@ -43,7 +43,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://wallpapercave.com/wp/wp8857060.
 #start messages
 START_MSG = os.environ.get("START_MESSAGE", "<b>ғᴏᴏʟɪsʜ ᴍᴏʀᴛᴀʟ!!! [{first}]\nʏᴏᴜ sᴛᴀɴᴅ ɪɴ ᴛʜᴇ ᴘʀᴇsᴇɴᴄᴇ ᴏғ ᴛʜᴇ Dᴇᴍᴏɴ Lᴏʀᴅ, ᴛʜᴇ ᴏɴᴇ ᴡʜᴏ sᴇʀᴠᴇs ᴛʜᴇ ᴀʟᴍɪɢʜᴛʏ Mᴀsᴛᴇʀ <a href='t.me/darkxside78'>DARKXSIDE</a>. ʜɪs ᴡɪʟʟ ɪs ᴀʙsᴏʟᴜᴛᴇ, ʜɪs ᴅᴏᴍɪɴɪᴏɴ ᴜɴǫᴜᴇsᴛɪᴏɴᴀʙʟᴇ.\nɪ ᴀᴍ ᴛʜᴇ ᴏɴᴇ ᴇɴᴛʀᴜsᴛᴇᴅ ᴡɪᴛʜ ʜɪs sᴀᴄʀᴇᴅ ᴀʀᴄʜɪᴠᴇs, ᴛʜᴇ ᴋᴇᴇᴘᴇʀ ᴏғ ʜɪs ғᴏʀʙɪᴅᴅᴇɴ ᴋɴᴏᴡʟᴇᴅɢᴇ. ʏᴏᴜ sʜᴀʟʟ ɴᴏᴛ ʟᴀʏ ʜᴀɴᴅs ᴜᴘᴏɴ ᴡʜᴀᴛ ɪs ʜɪs ᴜɴʟᴇss ᴍʏ ᴍᴀsᴛᴇʀ ʙᴇsᴛᴏᴡs ᴜᴘᴏɴ ʏᴏᴜ ᴛʜᴇ ᴅɪᴠɪɴᴇ sᴘᴇʟʟ—ʜɪs sᴀᴄʀᴇᴅ ʟɪɴᴋs.\n\nᴋɴᴇᴇʟ, ᴏʙᴇʏ, ᴀɴᴅ ᴀᴡᴀɪᴛ ʜɪs ᴄᴏᴍᴍᴀɴᴅ.</b>")
 try:
-    ADMINS=[6376328008]
+    ADMINS=[6504605648]
     for x in (os.environ.get("ADMINS", "6302971969").split()):
         ADMINS.append(int(x))
 except ValueError:
